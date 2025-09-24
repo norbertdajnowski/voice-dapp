@@ -1,4 +1,0 @@
-One-to-many biometric authentication web application, integrating decentralisation through Ethereum and IPFS.
-
-This project is a Flask-based dApp for voice biometric authentication. Users enroll by uploading short voice samples; the system extracts MFCC features and trains a scikit-learn model to recognize the speaker. The trained biometric model is encrypted with Fernet and pinned to IPFS via Pinata, providing tamper-evidence and decentralized storage. An Ethereum smart contract (compiled with py-solc-x and interacted with via Web3.py) maintains authorization for clients, gating access to recognition routes. Supporting utilities include PyAudio/OpenCV for audio I/O, SciPy/NumPy for signal processing, and optional analysis scripts that generate ROC/DET and threshold performance visualizations using Matplotlib/Seaborn.
-
