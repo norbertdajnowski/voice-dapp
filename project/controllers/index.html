@@ -1,0 +1,9 @@
+{% extends "layout/layout.html" %}
+{% block body %}
+<div class="container" id="button-div">
+    <a href="{{ url_for('login') }}"><button type="button" class="btn btn-primary btn-lg btn-block">Login</button></a>
+    <a href="{{ url_for('register') }}"><button type="button" class="btn btn-primary btn-lg btn-block">Register</button></a>
+    <a href="{{ url_for('delete') }}"><button type="button" class="btn btn-primary btn-lg btn-block">Delete</button></a>
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit" onclick="test()">Begin Test</button>
+</div>
+{% endblock %}

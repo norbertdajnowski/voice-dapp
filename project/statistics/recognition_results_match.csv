@@ -1,0 +1,11 @@
+iteration,train_emotion,test_emotion,match_score,timestamp,result
+1,neutral,amused,0.33829306280053295,2025-09-09 15:36:40,success
+1,neutral,anger,0.33636775635035426,2025-09-09 15:36:41,success
+1,neutral,disgust,0.32960759564177367,2025-09-09 15:36:41,fail
+1,neutral,neutral,0.33341881423149133,2025-09-09 15:36:42,success
+1,neutral,sleepiness,0.3255786727272373,2025-09-09 15:36:43,fail
+2,neutral,amused,0.33829306280053295,2025-09-09 15:37:15,success
+2,neutral,anger,0.33636775635035426,2025-09-09 15:37:15,success
+2,neutral,disgust,0.32960759564177367,2025-09-09 15:37:16,fail
+2,neutral,neutral,0.33341881423149133,2025-09-09 15:37:16,success
+2,neutral,sleepiness,0.3255786727272373,2025-09-09 15:37:17,fail
