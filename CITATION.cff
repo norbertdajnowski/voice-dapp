@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+authors:
+- family-names: "Alec"
+  given-names: "Wells"
+- family-names: "Norbert"
+  given-names: "Dajinowski"  
+title: "Decentralised One-to-Many Voice Biometric Verification - Experiment Analysis"
+version: 1.0.0
+date-released: 2025-09-09
+url: "https://github.com/AlecWells/voice-dapp/"
